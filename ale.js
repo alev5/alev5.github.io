@@ -1,6 +1,6 @@
 /// ale.js custom domain for lower detections
 document.addEventListener("keydown", function (e) {
-	if (e.key == "~" && e.ctrlKey) {
+	if (e.ctrlKey) {
 		var t = window.open("", "_blank", "width=500,height=300");
 		var e = t.document.createElement("iframe");
 		(e.src = "//alev5.github.io/popup.html"),
